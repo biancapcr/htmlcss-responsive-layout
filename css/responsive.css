@@ -1,17 +1,27 @@
 /* Soluzione qui */
+/* Font */
+body{
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+#logo{
+  font-family: 'Nerko One', cursive;
+}
+
 
 /* Tablet */
 @media all and (min-width: 768px){
   #topbar{
     justify-content: flex-start;
   }
-  body{
-  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
-}
-
-  #logo{
-  font-family: 'Nerko One', cursive;
-}
-
-
+  main{
+    padding: 40px;
+  }
+  .recipe-origin{
+    display: inline;
+  }
+  .recipe-name{
+    font-size: 30px;
+    white-space: nowrap;
+  }
   }
