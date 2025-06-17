@@ -5,4 +5,13 @@
   #topbar{
     justify-content: flex-start;
   }
+  body{
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+  #logo{
+  font-family: 'Nerko One', cursive;
+}
+
+
   }
