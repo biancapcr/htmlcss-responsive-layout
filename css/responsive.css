@@ -15,7 +15,7 @@ body{
     justify-content: flex-start;
   }
   main{
-    padding: 40px;
+    padding: 50px;
   }
   .recipe-origin{
     display: inline;
@@ -36,5 +36,9 @@ body{
   .social-networks button{
     flex: 1;
     text-align: center;
+  }
+  .presentation img{
+    float: left;
+    margin: 0 20px 10px 0;
   }
   }
