@@ -24,10 +24,17 @@ body{
     font-size: 30px;
     white-space: nowrap;
   }
+  .ads{
+    display: block;
+  }
    .quick-notes ul{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 30px;
+  }
+  .social-networks button{
+    flex: 1;
+    text-align: center;
   }
   }
